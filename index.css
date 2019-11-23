@@ -3,3 +3,9 @@
     color: black;
     text-align: center;
 }
+
+.picture {
+    border: solid 2px #0056b3;
+    border-radius: 50%;
+    width: 200px;
+}
