@@ -92,15 +92,3 @@ def decrypt_file(file_path):
     print("ok: ", status.ok)
     print("status: ", status.status)
     print("stderr: ", status.stderr)
-
-
-# list_keys()
-# generate_keys()
-
-
-# message = "Hello Friend..."
-
-# decrypt_string(encrypt_string(message))
-
-# encrypt_file("secret_message.txt")
-# decrypt_file("my-encrypted.txt.gpg")
