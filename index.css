@@ -1,11 +1,49 @@
-.body {
-    background-color: white;
-    color: black;
+body {
+    background-color: black;
+    color: hotpink;
     text-align: center;
+    overflow: hidden;
 }
 
 .picture {
-    border: solid 2px #0056b3;
+    border: solid 2px hotpink;
     border-radius: 50%;
     width: 200px;
+
+}
+
+.fill {
+    position: absolute;
+    margin-top: -100px;
+}
+
+.content-about-me {
+    /* background-color: white; */
+    position: relative;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.hello {
+    background-color: black;
+    margin-top: 100px;
+    width: 600px !important;
+    border: solid 2px hotpink;
+    color: hotpink;
+    border-radius: 1%;
+    border-style: dashed;
+}
+
+i {
+    color: hotpink
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px;
 }
